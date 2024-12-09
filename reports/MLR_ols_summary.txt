@@ -1,0 +1,35 @@
+Test MSE: 0.0096
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  price   R-squared:                       0.655
+Model:                            OLS   Adj. R-squared:                  0.646
+Method:                 Least Squares   F-statistic:                     75.35
+Date:                Mon, 09 Dec 2024   Prob (F-statistic):           2.39e-85
+Time:                        14:59:11   Log-Likelihood:                -6241.0
+No. Observations:                 408   AIC:                         1.250e+04
+Df Residuals:                     397   BIC:                         1.255e+04
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const            1.811e+06   2.08e+05      8.730      0.000     1.4e+06    2.22e+06
+area              2.66e+06   3.34e+05      7.964      0.000       2e+06    3.32e+06
+bedrooms         6.959e+05   4.21e+05      1.654      0.099   -1.31e+05    1.52e+06
+bathrooms        2.317e+06   2.54e+05      9.119      0.000    1.82e+06    2.82e+06
+stories          1.084e+06   2.13e+05      5.099      0.000    6.66e+05     1.5e+06
+parking          7.502e+05   2.09e+05      3.597      0.000     3.4e+05    1.16e+06
+mainroad          6.29e+05   1.67e+05      3.769      0.000    3.01e+05    9.57e+05
+guestroom        4.372e+05   1.47e+05      2.966      0.003    1.47e+05    7.27e+05
+hotwaterheating  8.736e+05   2.42e+05      3.612      0.000    3.98e+05    1.35e+06
+airconditioning  8.928e+05   1.28e+05      6.979      0.000    6.41e+05    1.14e+06
+prefarea         7.111e+05   1.31e+05      5.414      0.000    4.53e+05    9.69e+05
+==============================================================================
+Omnibus:                       80.725   Durbin-Watson:                   2.065
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              244.939
+Skew:                           0.903   Prob(JB):                     6.49e-54
+Kurtosis:                       6.339   Cond. No.                         13.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
