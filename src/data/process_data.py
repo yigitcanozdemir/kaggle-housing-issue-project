@@ -34,5 +34,7 @@ def get_dummy_varibles(df, name):
 for column in object_columns:
     df = get_dummy_varibles(df, column)
 
-
+# ======================================================
+# 3. Export data
+# ======================================================
 df.to_pickle(path="../../data/interim/housing.pkl")
