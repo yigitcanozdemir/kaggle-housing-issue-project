@@ -3,11 +3,11 @@ This repository does not aim to provide the best or simplest solution to the hou
 
 While TensorFlow might require less code due to its built-in normalization layers, I chose PyTorch to explore its capabilities in a regression problem, even though it may not be the most straightforward choice for such tasks. This project is more about experimenting and seeing where this approach leads.
 
-(Note: I work with standard Python scripts and leverage the Jupyter Interactive Window for development and debugging. It’s a convenient and efficient way to test code interactively, and I highly recommend it for projects like this.)
+`(Note: I work with standard Python scripts and leverage the Jupyter Interactive Window for development and debugging. It’s a convenient and efficient way to test code interactively, and I highly recommend it for projects like this.)`
 
 PyTorch is used with CUDA and cuDNN acceleration, make sure to adjust the environment and configurations properly if using the libraries directly from the `requirements.txt` file. Direct installation from `requirements.txt` may not work as expected due to dependencies on GPU acceleration.
 
-Since the housing problem is relatively straightforward, I won’t delve into excessive detail here. Below, you can find the project structure and file descriptions. Additionally, the scripts are well-documented for better understanding. (Note: A GAN experiment will be added soon.)
+Since the housing problem is relatively straightforward, I won’t delve into excessive detail here. Below, you can find the project structure and file descriptions. Additionally, the scripts are well-documented for better understanding. `(Note: A GAN experiment will be added soon.)`
 ## Duplicating the `.env` File
 To download the housing dataset using the Kaggle API, you need to duplicate the `.env.example` file and rename it to `.env` (or simply rename `.env.example` to `.env`, whichever you prefer). Then, add your credentials as shown in the `.env.example` file.
 
