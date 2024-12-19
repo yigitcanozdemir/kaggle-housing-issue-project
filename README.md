@@ -5,13 +5,13 @@ While TensorFlow might require less code due to its built-in normalization layer
 
 (Note: I work with standard Python scripts and leverage the Jupyter Interactive Window for development and debugging. It’s a convenient and efficient way to test code interactively, and I highly recommend it for projects like this.)
 
-Since PyTorch is used with CUDA and cuDNN acceleration, make sure to adjust the environment and configurations properly if using the libraries directly from the requirements.txt file. Direct installation from requirements.txt may not work as expected due to dependencies on GPU acceleration.
+PyTorch is used with CUDA and cuDNN acceleration, make sure to adjust the environment and configurations properly if using the libraries directly from the `requirements.txt` file. Direct installation from `requirements.txt` may not work as expected due to dependencies on GPU acceleration.
 
 Since the housing problem is relatively straightforward, I won’t delve into excessive detail here. Below, you can find the project structure and file descriptions. Additionally, the scripts are well-documented for better understanding. (Note: A GAN experiment will be added soon.)
 ## Duplicating the .env File
-To download the housing dataset using the Kaggle API, you need to duplicate the .env.example file and rename it to .env (or simply rename .env.example to .env, whichever you prefer). Then, add your credentials as shown in the .env.example file.
+To download the housing dataset using the Kaggle API, you need to duplicate the `.env.example` file and rename it to `.env` (or simply rename `.env.example` to `.env`, whichever you prefer). Then, add your credentials as shown in the `.env.example` file.
 
-If you prefer not to use the API, you can manually download the dataset from [here](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset) and place it in the data/raw folder.
+If you prefer not to use the API, you can manually download the dataset from [here](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset) and place it in the `data/raw` folder.
 ## Project Organization
 
 ```
